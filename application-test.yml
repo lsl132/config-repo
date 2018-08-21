@@ -1,4 +1,4 @@
 spring: 
   datasourece: 
-    username:root
-    password:'{cipher}70891a931c94f05e52260c2f9f40e4046d0e01da784f02c10f0f989cbd2a6d5f'
+    username: root
+    password: '{cipher}70891a931c94f05e52260c2f9f40e4046d0e01da784f02c10f0f989cbd2a6d5f'
