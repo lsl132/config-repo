@@ -27,3 +27,9 @@ eureka:
   instance:
     prefer-ip-address: false
     instance-id: ${spring.application.name}:${random.int}
+logging:
+  level:
+    root: INFO
+    org.hibernate: INFO
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
