@@ -1,9 +1,4 @@
 spring: 
-  jpa:
-    generate-ddl: false
-    show-sql: false
-    hibernate:
-      ddl-auto: none
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://192.168.1.33:3306/mydata_user?useUnicode=true&characterEncoding=UTF-8
@@ -20,17 +15,4 @@ spring:
         max-wait: -1
         max-idle: 8
         min-idle: 0
-eureka:
-  client:
-    service-url:
-      defaultZone: http://192.168.1.33:8761/eureka/,http://192.168.1.33:8762/eureka/
-  instance:
-    prefer-ip-address: false
-    instance-id: ${spring.application.name}:${random.int}
-logging:
-  level:
-    root: INFO
-    org.hibernate: INFO
-    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
-    org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
 
