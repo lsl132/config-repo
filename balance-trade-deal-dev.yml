@@ -4,4 +4,4 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://192.168.1.164:3306/mydata_account?useUnicode=true&characterEncoding=UTF-8
     username: root
-    password: 123456
+    password: '{cipher}c932d2dc12043c7b900a1e85b852f0ae82e246a9a8bae084118ea430127389aa'
