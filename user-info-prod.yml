@@ -1,12 +1,12 @@
 spring: 
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.1.33:3306/mydata_user?useUnicode=true&characterEncoding=UTF-8
+    url: jdbc:mysql://mariadb-server:3306/mydata_user?useUnicode=true&characterEncoding=UTF-8
     username: root
     password: '{cipher}70891a931c94f05e52260c2f9f40e4046d0e01da784f02c10f0f989cbd2a6d5f'
   redis:
     database: 1
-    host: 192.168.1.33
+    host: redis-server
     post: 6379
     password:
     jedis:
