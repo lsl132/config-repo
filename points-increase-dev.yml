@@ -1,6 +1,6 @@
 spring: 
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://mariadb-server:3306/mydata_points?useUnicode=true&characterEncoding=UTF-8
     username: root
     password: '{cipher}c932d2dc12043c7b900a1e85b852f0ae82e246a9a8bae084118ea430127389aa'
