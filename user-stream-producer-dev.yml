@@ -1,5 +1,6 @@
 spring: 
   rabbitmq:
+    virtual-host: /vhost_cloud
     host: rabbitmq-server
     port: 5672
     username: springcloud
