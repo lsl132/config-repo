@@ -5,7 +5,7 @@ spring:
     username: root
     password: '{cipher}12c896e77cecf338057b66d43b101c1bf65930fc87882723f3c59ae0a09713e9'
   rabbitmq:
-    virtual-host: /vhost_cloud
+    virtual-host: vhost_cloud
     host: rabbitmq-server
     port: 5672
     username: springcloud
