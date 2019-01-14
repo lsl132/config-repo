@@ -13,6 +13,6 @@ spring:
     stream: 
       bindings: 
         input: 
-	  destination: user-output
-	output: 
-	  destination: user-input
+          destination: user-output
+        output: 
+          destination: user-input
