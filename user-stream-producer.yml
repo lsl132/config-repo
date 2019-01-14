@@ -1,0 +1,13 @@
+spring: 
+  rabbitmq:
+    host: rabbitmq-server
+    port: 5672
+    username: springcloud
+    password: '{cipher}70891a931c94f05e52260c2f9f40e4046d0e01da784f02c10f0f989cbd2a6d5f'
+  cloud: 
+    stream: 
+      bindings: 
+        input: 
+	  destination: user-output
+	output: 
+	  destination: user-input
